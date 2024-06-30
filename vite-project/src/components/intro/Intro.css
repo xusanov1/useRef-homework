@@ -1,0 +1,42 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 50px; */
+}
+
+.wrapper-left .intro-p{
+    color: #F4F4F4;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.wrapper-left .intro-h1{
+    color: #F4F4F4;
+    font-size: 68px;
+    font-weight: 500;
+    line-height: 84px;
+    width: 622px;
+}
+
+.wrapper-left .intro-description{
+    color: #F4F4F4;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 42px;
+    width: 622px;
+    padding-bottom: 50px;
+}
+
+.wrapper-left .intro-button{
+   padding: 20px;
+   width: 284px;
+   height: 63px;
+   border-radius: 20px;
+   background-color: #FF56BB ;
+   font-size: 18px;
+   font-weight: 700;
+   color: #fff;
+   text-align: center;
+}

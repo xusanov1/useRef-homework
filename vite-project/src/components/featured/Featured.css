@@ -1,0 +1,88 @@
+.featured-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 130px;
+    padding-bottom: 30px;
+}
+
+.featured-cards-grid{
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    color: #fff;
+}
+
+.featured-card{
+    display: flex;
+    gap: 45px;
+    padding: 30px;
+    background-color:  #1F1F1F;
+    border-radius: 22px;
+}
+
+.peperzon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.peperzon .profile-img{
+    width: 40px;
+    height: 40px;
+}
+
+.card-title{
+    font-size: 32px;
+    padding: 30px 0;
+}
+
+.card-description{
+    font-size: 14px;
+    padding: 20px 0;
+}
+
+.featured-price{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.current-h3{
+    font-size: 19px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.current-time{
+    font-size: 19px;
+    font-weight: 700;
+    color: #fff;
+}
+span{
+    font-weight: 700;
+    color: #ecdfe753;
+}
+
+
+button{
+    width: 223px;
+    height: 49px;
+    border-radius: 20px;
+    background-color: #FF56BB ;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+button:hover{
+    background-color: #ff56bba1 ;
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+}
